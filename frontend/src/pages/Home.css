@@ -6,9 +6,49 @@
   background-attachment: fixed;
 }
 
-/* .home::before {
-  content: "";
+.home-overlay {
+  min-height: 100vh;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.home-content {
   position: absolute;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.5);
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #ffffff;
+}
+
+.home-content h1{
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.home-content h2{
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-weight: 400;
+  margin-top: 0px;
+}
+
+.order-now-button {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  background-color: #e85d04;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  margin-top: 20px;
+}
+
+.order-now-button:hover {
+  background-color: #d65303;
+}
+
+/* .order-now-button:active {
+  background-color: #c84f02;
 } */
