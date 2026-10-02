@@ -1,0 +1,74 @@
+/* Navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 60px;
+  /* background-color: #ffffff; */
+  /* border-bottom: 1px solid #e5e5e5; */
+}
+
+/* Restaurant name / logo */
+.navbar-logo {
+  font-size: 24px;
+  font-weight: 700;
+  color: #222222;
+  text-decoration: none;
+}
+
+/* Navigation links */
+.navbar-links {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  margin-left: 550px;
+}
+
+.navbar-links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.navbar-links a:hover {
+  color: #e85d04;
+}
+
+/* Cart button */
+.navbar-cart {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #e85d04;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.navbar-cart:hover {
+  background-color: #d65303;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 14px 20px;
+  }
+
+  .navbar-links {
+    gap: 16px;
+  }
+
+  .navbar-links a {
+    font-size: 14px;
+  }
+
+  .navbar-cart {
+    padding: 8px 14px;
+    font-size: 14px;
+  }
+}
