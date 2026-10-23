@@ -1,0 +1,22 @@
+.menu-category-nav{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.category-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+.category-link:hover {
+    color: #e85d04;
+}
+
+.category-link.active {
+    color: #e85d04;
+}
